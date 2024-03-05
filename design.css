@@ -1,0 +1,162 @@
+@import url('https://fonts.cdnfonts.com/css/garet');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;700&display=swap');
+
+.logo {padding: 5px; margin-left: 30px;}
+
+::-webkit-scrollbar{
+   width: 15px;
+}
+
+::-webkit-scrollbar-track{
+        background: #333;
+}
+
+::-webkit-scrollbar-thumb{
+        background-color: #DDC571;
+}
+
+* { margin: 0; padding: 0; }
+header {background-color: #6a663f; 
+        background-repeat: no-repeat; 
+        background-size: cover;}
+
+img {width: 120px; height: auto;}
+
+div header {overflow: hidden; 
+            position: relative;
+	          padding-right: 50px; 
+            padding-left: 80px;}
+
+.Link, .Link-Home {float: right; color: white; font-size: 20px; 
+        font-family: 'Garet', sans-serif; padding-right:30px;  
+        padding-left: 25px; padding-top: 25px; 
+        text-decoration: none; 
+        -moz-transition: all 0.2s ease-in; 
+        -o-transition: all 0.2s ease-in; 
+        -webkit-transition: all 0.2s ease-in; 
+        transition: all 0.2s ease-in;}
+.Link-Home {font-weight: 500;}
+
+.Link:hover, .Link-Home:hover {color: ghostwhite; font-size: 25px; 
+            text-decoration: none; 
+            text-shadow:0px 0px 30px rgb(255, 255, 255); 
+            -moz-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in; 
+            -webkit-transition: all 0.2s ease-in; 
+            transition: all 0.2s ease-in;}
+
+
+* {box-sizing: border-box;}
+
+.intro, .intro-proj  {background-image: url(images/franci-bg3.png); width: auto; height: 660px;
+        padding-top: 130px; background-repeat: no-repeat; background-size: cover;}
+.intro-proj {background-image: url(images/franci-bg3.png); width: auto; height: auto;
+        padding-top: 130px; background-repeat: no-repeat; background-size: cover;}
+
+
+@keyframes backText {
+            100% {background-position: 2000px 0;}
+        }
+
+.intro h1, .intro-proj h1 {font-size: 120px; font-family: 'League Spartan', sans-serif; 
+        color: transparent; text-align: center; background: url(images/back-1.png);
+        -webkit-text-stroke: 1px white; -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: backText 30s linear infinite alternate; }
+
+.name {color:#DDC571;}
+.desc {color: white; padding: 40px 400px 0px 400px;}
+.name, .desc, .proj-desc {text-align: center; font-family: 'Garet', sans-serif;}
+.proj-desc{ color: wheat; padding: 10px 200px 0px 200px }
+
+.detail-box {background-image: url(images/bg-1.png); width: auto; height: 660px;
+    padding-top: 30px; background-repeat: no-repeat; background-size: cover;}
+
+.detail-box-img {float: left; width: 426.5px; height: auto; margin-left: 180px; display: inline-block; margin-right: 90px;}
+.about-title {font-size: 35px; font-family: 'League Spartan', sans-serif; font-weight: 700; padding-bottom: 30px;}
+.franci-desc {padding: 200px}
+.position { font-family: 'League Spartan', sans-serif;  font-size: 20px;}
+
+.franci-detail-box{display: grid; grid-template-columns: 0.5fr 0.5fr; grid-gap: 20px;
+        grid-template-rows: auto; box-shadow: 2px 2px 30px rgba(0,0,0,0.2);}
+
+.detail-box-img{width: 400px; height: auto;}
+
+.detail-box-img img{width: 100%; height: 100%; object-position: center; object-fit: cover;}
+
+.detail-box-text{padding: 20px 20px 20px 0px; position: relative; margin-top: 50px; margin-left: -130px;
+        font-family: 'Garet', sans-serif;}
+
+.detail-name{font-size: 120px; font-family: 'League Spartan', sans-serif; 
+  font-size: 50px; color: #333; font-weight: bold; text-decoration: none;}
+
+.franci-social-links{display: flex; align-items: center;} 
+
+.franci-social-links a{width: 30px; height: 30px; display: flex; justify-content: center;
+            align-items: center; background-color: #c0bbbb; margin: 5px; border-radius: 50%;
+            font-size: 0.9rem; color: var(--black);}
+
+.franci-social-links a:hover{color: var(--white); background-color: var(--red); transition: all ease 0.3s;}
+
+.detail-box-text .position{color: #000000; border-bottom: 1px solid #414141;
+                margin: 0px; padding: 10px 0px; width: 97%; margin-top: 20px; margin-bottom: 30px;}
+
+.detail-box-text p{color: #202020; font-weight: 500; font-size: 1.0rem;}
+
+.view-work-btn {width: 150px; height: 45px; display: flex; justify-content: center; align-items: center;
+    color: white; background-color: #535353; margin-top: 20px;}
+
+.view-work-btn:hover{color: var(--white); background-color:  #202020; transition: all ease 0.3s;}
+
+.projects{padding: 15px 9%; padding-bottom: 100px; font-family: 'League Spartan', sans-serif;  }
+.projects .heading {text-align: center; padding-bottom: 15px; color: #DDC571; padding: 45px 0px 15px 0px;
+                    text-shadow: 0 5px 10px rgba(0, 0, 0,.2); font-size: 50px; width: auto; }
+.projects .proj-desc, intro .proj-desc{text-align: center; padding: 15px 100px 40px 100px; color: white; font-family: 'Garet', sans-serif;}
+.projects .box-container {display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;}
+.projects .box-container .box, .projects .box-container .box-p{
+        box-shadow: 0 5px 10px rgba(0, 0, 0,.2); border-radius: 5px;
+        background: white; text-align: center; padding: 30px 20px;}
+
+.projects .box-container .box img{height: auto; width: 360px;}
+.projects .box-container .box h1{height: 80px; color: #6a663f; font-size: 35px; padding: 10px 0;}
+.projects .box-container .box p{height: 80px; color: black; font-size: 13px; font-family: 'Garet', sans-serif; padding-top: -20px;}
+.projects .box-container .box .btn{margin-top: 10px; display: inline-block; background: #535353; 
+color: white; font-size: 17px; border-radius: 5px; padding: 8px 25px;}
+
+.projects .box-container .box-p img{height: auto; width: 285px;}
+.projects .box-container .box-p h1{height: 80px; color: #6a663f; font-size: 35px; padding: 10px 0;}
+.projects .box-container .box-p p{height: 80px; color: black; font-size: 13px; font-family: 'Garet', sans-serif; padding-top: -20px;}
+.projects .box-container .box-p .btn{margin-top: 10px; display: inline-block; background: #535353; 
+color: white; font-size: 17px; border-radius: 5px; padding: 8px 25px;}
+
+.projects .box-container .box .btn:hover{box-shadow: 0 10px 15px rgba(0, 0, 0,.2); transform: scale(1.03);}
+
+@media (max-width:768px){
+        .projects{
+                padding: 20px;
+        }
+}
+
+.skill-title{padding-bottom: -100px;}
+.skill-container {
+  width: 100%;
+  background-color: #ddd; 
+  padding-bottom: -100px;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.wordp {width: 75%; background-color: #6a663f;}
+.wordpr {width: 90%; background-color: #6a663f;}
+.html {width: 85%; background-color: #6a663f;}
+.css {width: 90%; background-color: #6a663f;}
+.db {width: 80%; background-color: #6a663f;}
+.time {width: 90%; background-color: #6a663f;}
+
+
+
